@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.Side_bar ul {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background-color:#191919;
+    color: white;
+    left: -200px;
+    transition: 0.4s;
+}
+
+.Side_bar ul li{
+    padding: 15px 15px;
+    border-bottom: 2px solid rgba(100,100,100, 0.3);
+}
+
+.Side_bar > .toggle_btn {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.toggle_btn span{
+    margin: 3px 2px;
+    display: block;
+    height: 3px;
+    width: 20px;
+    background-color: #191919;
+}
+
+#changeClass{
+    left: 0;
+}
+
+.Side_bar > .change_btn {
+    left: 220px;
+}
